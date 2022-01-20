@@ -369,12 +369,12 @@ hr {
 }
 
 .glowing-circle{
-  width: 10px;
-  height: 10px;
+  width: 7px;
+  height: 7px;
   border-radius:50%;
   display: flex;
-  margin-left: 36px;
-  margin-top: -12px;
+  margin-left: 40px;
+  margin-top: -11px;
   background-color: rgb(147, 243, 36);
   -webkit-animation: glowing 1s ease-in-out infinite alternate;
   -moz-animation: glowing 1s ease-in-out infinite alternate;
