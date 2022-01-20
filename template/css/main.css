@@ -368,6 +368,27 @@ hr {
   margin-top: 9px;
 }
 
+.glowing-circle{
+  width: 10px;
+  height: 10px;
+  border-radius:50%;
+  display: flex;
+  margin-left: 36px;
+  margin-top: -12px;
+  background-color: rgb(147, 243, 36);
+  -webkit-animation: glowing 1s ease-in-out infinite alternate;
+  -moz-animation: glowing 1s ease-in-out infinite alternate;
+  animation: glowing 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glowing {
+  from {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(9, 255, 0), 0 0 40px #0ff, 0 0 50px #28c608, 0 0 60px #28c608, 0 0 70px #28c608;
+  }
+  to {
+    box-shadow: 0 0 20px #fff, 0 0 30px #1aeb25, 0 0 40px #1aeb25, 0 0 50px #1aeb25, 0 0 60px #1aeb25, 0 0 70px #1aeb25, 0 0 80px #1aeb25;
+  }
+}
+
 .sidebar .sidebar-menu {
   padding-bottom: 24px;
 }
