@@ -1,2 +1,5 @@
-
 /*----------- ADD YOUR CUSTOM CSS STYLES BELOW -----------*/
+
+.home-area #particles-js {
+    top: 0
+  }
