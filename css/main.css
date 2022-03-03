@@ -93,6 +93,10 @@ hr {
   padding: 10px 38px;
 }
 
+.btn-middle {
+  margin-left: 33%;
+}
+
 .button-main:focus {
   background-color: #bfbfbf;
   border: 1px solid #c5c5c5;
@@ -1151,9 +1155,10 @@ hr {
   margin-bottom: 40px;
 }
 
+/* changed this to make Spotify technologies to be on same line 49.6% --> 100% */
 .portfolio-area .lightbox-wrapper .lightbox-content .content-info .single-info {
   margin-bottom: 15px;
-  width: 49.6%;
+  width: 100%;
 }
 
 .portfolio-area .lightbox-wrapper .lightbox-content .content-info .single-info:not(:last-child) {
@@ -1206,7 +1211,7 @@ hr {
 }
 
 /*----------- Testimonials -----------*/
-.testimonials-area .single-review {
+/* .testimonials-area .single-review {
   background-color: #fff;
   border: 1px solid rgba(214, 214, 214, 0.8);
   padding: 40px 30px;
@@ -1250,10 +1255,10 @@ hr {
   .testimonials-area .single-review .review-content {
     margin-bottom: 28px;
   }
-}
+} */
 
 /*----------- Blog -----------*/
-.blog-area .single-post {
+/* .blog-area .single-post {
   background-color: transparent;
   border: none;
 }
@@ -1320,7 +1325,7 @@ hr {
   .blog-area .single-post .post-content .content-title {
     font-size: 20px;
   }
-}
+} */
 
 /*----------- Contact -----------*/
 .contact-area .contact-form .form-group {
